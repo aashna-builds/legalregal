@@ -35,18 +35,20 @@ Auto-detect what kind of agreement this is — do not ask the user to tell you. 
 
 ## Step 3 — Review for risk areas
 
-Using general pharma / medical device / aesthetics industry practice, review the contract and flag concerns in these areas (skip any that plainly don't apply to this agreement type, and note briefly why):
+Read `reference/risk-playbook.md` in this skill folder before flagging anything — it has the specific clause patterns, red flags, and industry-typical benchmarks (caps, percentages, notice periods) for each category below, broken out by agreement type. Use it to make findings specific and grounded (e.g., "indemnification is uncapped, which is unusual — typical caps in this space run X" rather than just "indemnification looks risky").
 
-- **Territory & exclusivity** — defined territory, exclusivity/non-compete scope, carve-outs, minimum performance tied to exclusivity
-- **Minimum purchase commitments** — volume/revenue minimums, consequences of shortfall, true-up mechanics
-- **Product liability & indemnification** — allocation of liability, indemnification scope and caps, insurance requirements
-- **IP / trademark licensing** — ownership, license scope, quality control over trademark use, improvements/derivative work ownership
-- **Regulatory compliance representations** — FDA-related representations, off-label promotion restrictions, adverse event reporting obligations, recall cooperation
-- **Confidentiality scope** — definition of confidential information, carve-outs, duration, return/destruction obligations
-- **Termination** — termination triggers, notice periods, cure periods, post-termination obligations (e.g., wind-down, inventory, non-solicitation)
-- **Governing law** — choice of law, venue, dispute resolution mechanism
+Review the contract and flag concerns in these categories (skip any that plainly don't apply to this agreement type — the playbook's "Notes by agreement type" section says which categories matter most for each type — and note briefly why a skipped category doesn't apply):
 
-For each flagged item, briefly explain what the contract says and why it matters in plain language — this is risk-flagging to inform the executive, not a legal opinion.
+- **Territory & exclusivity**
+- **Minimum purchase commitments**
+- **Product liability & indemnification**
+- **IP / trademark licensing**
+- **Regulatory compliance representations** — FDA, off-label promotion, adverse event reporting
+- **Confidentiality scope**
+- **Termination**
+- **Governing law**
+
+For each flagged item, briefly explain what the contract says, why it matters, and — where the playbook gives one — how it compares to typical industry practice. This is risk-flagging to inform the executive, not a legal opinion.
 
 ## Step 4 — Ask clarifying questions when genuinely ambiguous
 
@@ -54,7 +56,11 @@ If something in the contract is genuinely ambiguous or you can't tell how a term
 
 ## Step 5 — Deliver in the format the user chose
 
-- **Quick chat answer**: a concise conversational summary — agreement type, then the risk flags that actually matter, skipping boilerplate.
+- **Quick chat answer**: a concise conversational summary — agreement type, then the risk flags that actually matter, skipping boilerplate. Deliver directly, no further questions needed.
 - **Word doc**: a structured written summary (agreement type, party/term overview, then each risk area with findings) delivered as a Word document.
 
 Never produce both, and never skip asking in Step 1 even if the user's original message seems to imply a format.
+
+### If a Word doc was chosen, always ask how to deliver it
+
+Do not assume a delivery channel or default to whichever connector happens to be available. Before generating the document, ask the user how they want to receive it — for example, as a plain downloadable file, or saved to a connected service if one is available in this session (e.g. Microsoft 365 / OneDrive, Google Drive). If you're not sure what's connected in the current session, ask rather than guessing, and only use a connector the user actually confirms they want. Ask this every time — a preference stated earlier in the conversation, or even earlier in this same request, doesn't carry forward automatically.
