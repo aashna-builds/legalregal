@@ -1,0 +1,14 @@
+{
+  "name": "hugel-executive-ai-kit",
+  "owner": {
+    "name": "Aashna Sethi",
+    "email": "aashna.sethi@kaldway.com"
+  },
+  "plugins": [
+    {
+      "name": "hugel-executive-ai-kit",
+      "source": "./hugel-executive-ai-kit",
+      "description": "AI toolkit for Hugel executives, starting with contract review"
+    }
+  ]
+}
