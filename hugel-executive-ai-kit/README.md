@@ -14,9 +14,9 @@ Reviews contracts and agreements — distributor, HCP/practice, vendor, licensin
 
 Reviews internal company policies, SOPs, and procedures (HR, data privacy, quality/regulatory, code of conduct, EHS) for gaps, outdated regulatory references, unclear ownership, and internal inconsistency. Distinct from contract-review — this is for internal documents, not agreements between parties.
 
-### board-deck-builder
+### deck-builder
 
-Turns notes, a stated topic, or prior materials into a structured board-meeting presentation — clear narrative, one idea per slide, headline-style titles.
+Turns notes, a stated topic, or prior materials into a structured slide deck — board meetings, investor updates, all-hands, or any other executive presentation. Clear narrative, one idea per slide, headline-style titles, and applies Hugel's real brand design tokens (colors, type, spacing) when producing an actual slide file.
 
 ### board-memo-summarizer
 

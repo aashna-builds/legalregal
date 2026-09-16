@@ -10,7 +10,7 @@ This repo is a plugin marketplace with one plugin so far: **hugel-executive-ai-k
 | --- | --- |
 | `contract-review` | Reviews contracts/agreements (distributor, HCP/practice, vendor, licensing, NDA) for pharma/med-device/aesthetics risk areas — territory & exclusivity, minimum purchase, liability & indemnification, IP/trademark, regulatory compliance reps, confidentiality, termination, governing law. |
 | `policy-review` | Reviews internal policies/SOPs (HR, data privacy, quality/regulatory, code of conduct, EHS) for gaps, outdated regulatory references, and unclear ownership. |
-| `board-deck-builder` | Turns notes or a topic into a structured board-meeting presentation. |
+| `deck-builder` | Turns notes or a topic into a structured slide deck — board meetings, investor updates, all-hands, or any other executive presentation, in Hugel's brand look. |
 | `board-memo-summarizer` | Condenses long materials into a short board/executive pre-read. |
 | `industry-research-digest` | Sourced research digest on regulatory, competitive, and market news relevant to Hugel. |
 | `executive-correspondence` | Drafts executive-level emails/notes in the user's voice; always shows the full draft before anything sends. |
